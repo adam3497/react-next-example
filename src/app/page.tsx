@@ -14,7 +14,7 @@ const Home: React.FC = async () => {
 
     return (
         <div className="container mx-auto p-4">
-            <h1 className="text-4xl font-bold text-center mb-6">Lista de Usuarios</h1>
+            <h1 className="text-4xl font-bold text-center mb-6">Lista de Usuarios de ejemplo</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {users.map((user) => (
                     <div
