@@ -27,7 +27,7 @@ const Home: React.FC = async () => {
                             href={`/user/${user.id}`}
                             className="text-blue-500 underline mt-2 block"
                         >
-                            Ver más
+                            Ver más detalles
                         </a>
                     </div>
                 ))}
