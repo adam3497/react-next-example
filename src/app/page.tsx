@@ -10,6 +10,7 @@ const Home: React.FC = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users", {
         next: { revalidate: 60 }, // Habilita la revalidación cada 60 segundos
     });
+    const ab1 = "";
     const users: User[] = await res.json();
 
     return (
